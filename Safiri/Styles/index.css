@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+#main-header {
+  background: #14332C; /* Use your theme color */
+  color: #fff;
+  padding: 1em 0;
+}
+
+#site-title {
+  text-align: center;
+  margin: 0;
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#main-nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+#hero-section {
+  background: #e0f2f1;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+#hero-title {
+  margin: 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #00796b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Features section styles */
+#features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 1em;
+}
+
+.feature {
+  flex: 1;
+  margin: 0 1em;
+  text-align: center;
+}
+
+#personalized-tours h3, #secure-booking h3, #support h3 {
+  margin: 0;
+}
+
+/* Testimonial section styles */
+#testimonial-section {
+  background: #f1f1f1;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+#customer-testimonial {
+  font-style: italic;
+}
+
+/* Footer styles */
+#main-footer {
+  background: #14332C;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+#contact-link{
+  color:#39cc14;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}

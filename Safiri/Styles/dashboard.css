@@ -1,0 +1,123 @@
+/* Reset some default styles */
+
+h1{
+  display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+#main-header {
+  background: #14332C; /* Use your theme color */
+  color: #fff;
+  padding: 1em 0;
+}
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#main-nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Basic styling for the body */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container for the dashboard content */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header styling */
+.dashboard-container h1 {
+  color: #14332C; /* Primary theme color */
+  border-bottom: 2px solid #14332C;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Section styling */
+.dashboard-container section {
+  margin-bottom: 20px;
+}
+
+/* Links styling */
+.dashboard-container a {
+  color: #14332C; /* Primary theme color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dashboard-container a:hover {
+  text-decoration: underline;
+}
+
+/* Table styling */
+.dashboard-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-container table th, .dashboard-container table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-container table th {
+  background-color: #f2f2f2;
+  color: #14332C; /* Primary theme color */
+}
+
+/* Form styling */
+.dashboard-container form {
+  margin-top: 20px;
+}
+
+.dashboard-container form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.dashboard-container form input, .dashboard-container form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.dashboard-container form input[type="submit"] {
+  background-color: #14332C; /* Primary theme color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dashboard-container form input[type="submit"]:hover {
+  background-color: #0d2a1e;
+}
